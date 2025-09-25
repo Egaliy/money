@@ -3,14 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>give my money</title>
+  <title>Give my money</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #fff; /* можешь поменять фон */
+    }
+    iframe {
+      border: none; /* убирает рамку */
+    }
+  </style>
 </head>
 <body>
-    <iframe 
-      src="https://nowpayments.io/embeds/donation-widget?api_key=00b9369c-2573-439e-910c-01701ef3258f" 
-      width="346" 
-      height="623" 
-      scrolling="no">
-    </iframe>
+  <iframe 
+    src="https://nowpayments.io/embeds/donation-widget?api_key=00b9369c-2573-439e-910c-01701ef3258f" 
+    width="346" 
+    height="623" 
+    scrolling="no">
+  </iframe>
 </body>
 </html>
